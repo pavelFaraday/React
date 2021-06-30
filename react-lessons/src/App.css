@@ -1,0 +1,22 @@
+.height_App {
+	background-color: rgb(202, 202, 202);
+	display: flex;
+	justify-content: space-around;
+}
+
+.bordRed {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	background-color: antiquewhite;
+	border-radius: 30px;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.red {
+	color: red;
+}
+
+/* its test comment */

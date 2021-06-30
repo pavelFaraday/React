@@ -1,0 +1,61 @@
+
+----------------Install initial React files:----------------
+npx create-react-app app-name
+cd app-name
+npm start
+
+------------------------------------------------------------
+
+
+----------------Install bootstrap locally for React:----------------
+
+cd app-name
+npm i bootstrap@4.1.1
+
+in app-name/src/index.js
+import 'bootstrap/dist/css/bootstrap.css'
+
+
+----------------------Install React locally Icons:---------------------
+cd app-name
+npm i react-icons
+
+
+--import icons:
+import { FaTimes} from 'react-icons/fa'
+
+----------------------Create Component:---------------------
+import React from 'react';
+
+function myFun() {
+  return (
+    <div>
+      <h1>Hello World</h1>
+    </div>
+  );
+}
+
+export default myFun;
+------------------------------------------------------------
+
+
+-----------------add javaScript Logic tO html---------------
+** Everithing in {} is javascript Code
+** We put {} into component's html code, for adding JS logic to Html
+
+<p>{myPara}</p>
+<button onClick={sayHello}>Hello</button> 
+------------------------------------------------------------
+
+
+---------------------How add Css styles---------------------
+import './App.css';
+** we modify "App.css" 
+** for global Styles modify "index.css" 
+
+ <div className='bordRed'>
+ ------------------------------------------------------------
+
+
+ ---------------------------States---------------------------
+ import React, {useState} from 'react';
