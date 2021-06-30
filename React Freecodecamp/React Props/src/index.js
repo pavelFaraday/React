@@ -26,14 +26,14 @@ import './index.css'
 //       <Book 
 //         img={firstBook.img} 
 //         altText={firstBook.altText}
-//         title={firstBook.altText}
+//         title={firstBook.title}
 //         author={firstBook.author}
 //       />
         
 //       <Book 
 //         img={secondBook.img} 
 //         altText={secondBook.altText}
-//         title={secondBook.altText}
+//         title={secondBook.title}
 //         author={secondBook.author}
 //       />
 //     </section>
